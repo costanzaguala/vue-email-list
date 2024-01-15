@@ -13,11 +13,13 @@ createApp({
         axios
         .get(this.url)
         .then((res) => {
-            console.log(res.data.response);
 
             this.emails.push(res.data.response);
-            console.log(this.emails)
+
+
         });
     }
+
+
     }
 }).mount('#app')

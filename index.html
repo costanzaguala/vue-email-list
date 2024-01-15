@@ -10,8 +10,21 @@
 </head>
 <body>
 
+    <div id="app">
+        <ul>
+            <li v-for="email in emails">
+
+                {{ email }}
+
+            </li>
+        </ul>
+    </div>
+
     <!-- JAVASCRIPT -->
     <script src="https://unpkg.com/vue@3"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js" integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="script.js"></script>
 
 </body>
